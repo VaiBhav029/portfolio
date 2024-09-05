@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillFilePdf } from "react-icons/ai";
-import Resume from "../assets/VaibhavShetty.pdf";
+import Resume from "../assets/Vaibhavshetty.pdf";
 
 const Home = () => {
   return (
@@ -13,13 +13,11 @@ const Home = () => {
           Vaibhav Shetty
         </h1>
         <h2 className="text-4xl font-bold sm:text-7xl text-[#8892b0]">
-          Im a FullStack Developer
+          Im a Java Developer
         </h2>
         <p className="mx-w-[500px] text-[#8892b0] py-4 ">
-          We highly recommend using Vite, Parcel, Next.js, or Remix instead of
-          Create React App. They provide an equivalent or better developer
-          experience but with more flexibility, giving you more control over how
-          Tailwind and PostCSS are configured.
+        Java Developer with 3 years of experience in Object oriented programming in BFSI domain. Skilled in front-end and back-end Java 
+        technologies, Spring frameworks, REST API, database management and UI development with React, HTML5, and CSS3. 
         </p>
         <div>
           <a href={Resume} download="VaibhavShetty">

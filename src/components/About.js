@@ -20,13 +20,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              Of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+            Java Developer with 3 years of experience in Object oriented programming in BFSI domain. 
+            Skilled in front-end and back-end Java technologies, Spring frameworks, REST API, 
+            database management and UI development with React, HTML5, and CSS3. 
             </p>
           </div>
         </div>

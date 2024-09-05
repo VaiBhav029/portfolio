@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import Logo from "../assets/snaplogo.jpg";
+import Logo from "../assets/logo.jpeg";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -58,28 +58,58 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl" >
-          <Link to="home" spy={true} smooth={true} duration={500} onClick={handleChange}>
+        <li className="py-6 text-4xl">
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleChange}
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="about" spy={true} smooth={true} duration={500}  onClick={handleChange}>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleChange}
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="skills" spy={true} smooth={true} duration={500} onClick={handleChange}>
+          <Link
+            to="skills"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleChange}
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="work" spy={true} smooth={true} duration={500} onClick={handleChange}>
+          <Link
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleChange}
+          >
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link to="contact" spy={true} smooth={true} duration={500} onClick={handleChange}>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={handleChange}
+          >
             Contact
           </Link>
         </li>

@@ -19,9 +19,24 @@ const Work = () => {
         <p className="py-4">//Experience so far</p>
 
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work  "
+            date="October 2023 - Present"
+            iconStyle={{ background: "#000048", color: "#fff" }}
+            icon={<SiCognizant />}
+            contentStyle={{ background: "#00337C" }}
+          >
+            <h3 className="vertical-timeline-element-title text-2xl font-bold">
+              Software Engineer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Cognizant Technology Solutions
+            </h4>
+            <p className=""></p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work  "
-            date="September 2021 - Present"
+            date="September 2021 - October 2023"
             iconStyle={{ background: "#000048", color: "#fff" }}
             icon={<SiCognizant />}
             contentStyle={{ background: "#00337C" }}
