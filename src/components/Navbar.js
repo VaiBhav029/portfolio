@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaGithub, FaLinkedin, FaTimes } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import Logo from "../assets/logo.jpeg";
+import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -9,8 +9,9 @@ const Navbar = () => {
   const handleChange = () => setNav(!nav);
   return (
     <div className="fixed flex justify-between items-center px-4 w-full h-[80px] bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt="logo" style={{ width: "50px" }} />
+      <div className="flex justify-between items-center">
+        <img src={Logo} alt="logo" style={{ width: "80px" }} />
+        <h3 className="font-extrabold">vaibhavshetty222@gmail.com</h3>
       </div>
       {/* menu */}
       <div>
@@ -120,7 +121,6 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077B5]">
             <a
               href={process.env.REACT_APP_LINKEDIN}
-              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
               LinkedIn <FaLinkedin size={30} />
@@ -129,7 +129,6 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0a192f]">
             <a
               href={process.env.REACT_APP_GITHUB}
-              target="_blank"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Github <FaGithub size={30} />

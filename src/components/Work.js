@@ -16,11 +16,10 @@ const Work = () => {
         <h1 className="text-4xl font-bold border-b-2 border-green-600 inline ">
           Experience
         </h1>
-        <p className="py-4">//Experience so far</p>
-
+        <p className="py-4">{'//Experience so far'}</p>
         <VerticalTimeline>
-        <VerticalTimelineElement
-            className="vertical-timeline-element--work  "
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="October 2023 - Present"
             iconStyle={{ background: "#000048", color: "#fff" }}
             icon={<SiCognizant />}

@@ -3,6 +3,10 @@ import Github from "../assets/github.png";
 import Java from "../assets/Java.png";
 import Spring from "../assets/springboot.png";
 import ReactImg from "../assets/react.png";
+import Sql from '../assets/sql.png';
+import Docker from '../assets/docker.png';
+import Microservice from '../assets/microservice.png';
+import Splunk from '../assets/splunk.png';
 
 const Skills = () => {
   return (
@@ -13,15 +17,11 @@ const Skills = () => {
           <p className="text-4xl border-b-2 border-green-500 inline font-bold">
             Skills
           </p>
-          <p className="py-4">//There are the technolgies i've worked with</p>
+
+          <p className="py-4">{`//These are the technolgies i've worked with`}</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Github} alt="Github" />
-            <p className="my-4">Github</p>
-          </div>
-
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Java} alt="Github" />
             <p className="my-4">Java</p>
@@ -35,6 +35,31 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="Github" />
             <p className="my-4">React</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Sql} alt="Github" />
+            <p className="my-4">SQL</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Microservice} alt="Github" />
+            <p className="my-4">Microservice</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Docker} alt="Github" />
+            <p className="my-4">Docker</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Splunk} alt="Github" />
+            <p className="my-4">Splunk</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto " src={Github} alt="Github" />
+            <p className="my-4">Github</p>
           </div>
         </div>
       </div>

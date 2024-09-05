@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillFilePdf } from "react-icons/ai";
 import Resume from "../assets/Vaibhavshetty.pdf";
+import Animated from "./Animated";
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
           Vaibhav Shetty
         </h1>
         <h2 className="text-4xl font-bold sm:text-7xl text-[#8892b0]">
-          Im a Java Developer
+          {/* Im a Java Developer */}
+          <Animated />
         </h2>
         <p className="mx-w-[500px] text-[#8892b0] py-4 ">
         Java Developer with 3 years of experience in Object oriented programming in BFSI domain. Skilled in front-end and back-end Java 
